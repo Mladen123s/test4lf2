@@ -1,0 +1,322 @@
+nav {
+  background-color: #ef5c03;
+}
+
+body {
+  background-color: #323232;
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+}
+.nav {
+  display: flex;
+  color: #323232;
+}
+.logo {
+  width: 600px;
+  font-size: 30px;
+  height: 100px;
+  color: #323232;
+}
+.logo2 {
+  margin-left: 30px;
+  color: #323232;
+}
+.links {
+  height: 100px;
+  color: #323232;
+}
+.list {
+  list-style: none;
+  display: flex;
+}
+.list2 {
+  padding: 20px 34px;
+  font-size: 20px;
+  color: #323232;
+  transition: background 0.5s ease;
+}
+.jbg {
+  color: #323232;
+}
+a {
+  text-decoration: none;
+  color: #ef5c03;
+}
+.list2:hover {
+  background: #ff9f65;
+}
+
+.bannertext {
+  height: 800px;
+  display: flex;
+  color: #ef5c03;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+.banner {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  background: url(/oranz.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: slide 15s infinite ease;
+}
+@keyframes slide {
+  33% {
+    background: url(pexels-hernan-pauccara-1210273.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  66% {
+    background: url(/drvece.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  99% {
+    background: url(/oranz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.heder {
+  font-size: 70px;
+}
+.paragraf {
+  font-size: 25px;
+}
+.text {
+  margin-left: 90px;
+  word-spacing: 5px;
+  width: 500px;
+  height: 400px;
+}
+.span {
+  width: 500px;
+}
+.spans {
+  align-items: left;
+  display: inline-block;
+  width: 500px;
+  height: 1px;
+  background: #ef5c03;
+}
+.kontajner {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: #ef5c03;
+}
+
+.kontajner1 {
+  width: 300px;
+  height: 400px;
+  background: rgb(71, 71, 71);
+  border: #ef5c03 solid;
+  border-radius: 30px;
+}
+.kontajner2 {
+  width: 300px;
+  height: 400px;
+  background: rgb(71, 71, 71);
+  border: #ef5c03 solid;
+  border-radius: 30px;
+}
+.kontajner3 {
+  width: 300px;
+  height: 400px;
+  background: rgb(71, 71, 71);
+  border: #ef5c03 solid;
+  border-radius: 30px;
+}
+img {
+  border: #ef5c03 solid;
+  border-radius: 50px;
+  margin: 30px 90px;
+}
+.img3 {
+  width: 300px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img2 {
+  width: 300px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img1 {
+  width: 300px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.paragraf2 {
+  width: 300px;
+  height: 150px;
+}
+.btn1 {
+  width: 300px;
+  height: 100px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.btn2 {
+  width: 300px;
+  height: 100px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.btn3 {
+  width: 300px;
+  height: 100px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  background: black;
+  font-size: 15px;
+  border: black solid;
+  border-radius: 16px;
+  margin-right: 10px;
+  width: 100px;
+  height: 50px;
+  transition: background 0.5s ease;
+}
+.btn:hover {
+  background: #828284;
+}
+.btn4 {
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+  height: 100px;
+}
+.mainbtn {
+  border: #ef5c03 solid 4px;
+  background-color: #323232;
+  width: 110px;
+  height: 60px;
+  border-radius: 16px;
+  font-size: 25px;
+  transition: background 0.5s ease;
+}
+.mainbtn:hover {
+  background: rgb(71, 71, 71);
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .banner {
+    background: none;
+    width: 0px;
+    height: 0px;
+  }
+  @keyframes slide {
+    33% {
+      background: none;
+    }
+    66% {
+      background: none;
+    }
+    99% {
+      background: none;
+    }
+  }
+  .list2 {
+    padding: 14px 36px;
+    font-size: 20px;
+  }
+  .logo {
+    width: 300px;
+
+    font-size: 25px;
+    color: #323232;
+    padding-left: 30px;
+    padding-bottom: 90px;
+  }
+  .nav {
+    height: 80px;
+  }
+  .bannertext {
+    align-items: center;
+  }
+  .text {
+    margin-left: 0px;
+    word-spacing: 5px;
+    width: 1024px;
+    height: 600px;
+  }
+  .span {
+    width: 850px;
+  }
+  .spans {
+    width: 850px;
+  }
+  .kontajner {
+    align-items: center;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -100px;
+  }
+  .kontajner1 {
+    width: 900px;
+    height: 260px;
+    margin-bottom: 50px;
+  }
+  .kontajner2 {
+    width: 900px;
+    height: 260px;
+    margin-bottom: 50px;
+  }
+  .kontajner3 {
+    width: 900px;
+    height: 260px;
+    margin-bottom: 50px;
+  }
+  .paragraf2 {
+    display: flex;
+    align-items: flex-end;
+    width: 900px;
+    height: 50px;
+    text-align: center;
+  }
+  .bannertext {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 80px;
+  }
+  img {
+    margin: 16px 14px;
+  }
+  .btn1 {
+    float: right;
+    width: 150px;
+    height: 50px;
+  }
+  .btn2 {
+    float: right;
+    width: 150px;
+    height: 50px;
+  }
+  .btn3 {
+    float: right;
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+}
